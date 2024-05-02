@@ -36,7 +36,6 @@ body {
 	font-size: 16px;
 	color: #fefef8;
 	text-align: center;
-	padding: 14px 16px;
 	text-decoration: none;
 }
 
@@ -198,4 +197,36 @@ img {
 		-webkit-transform: translateX(100%);
 		transform: translateX(100%);
 	}
+}
+
+/* Main Page */
+
+.main_page_text {
+	display: flex;
+	justify-content: center;
+	margin-top: 10%;
+	color: black;
+}
+
+.header_text {
+	display: flex;
+	align-content: center;
+	font-size: 70px;
+}
+
+.under_header_text {
+}
+
+/* End of main page */
+
+.content {
+	display: flex;
+}
+
+.description {
+	width: 40%;
+	margin-left: 50px;
+	margin-top: 50px;
+	word-wrap: normal;
+	font-size: 20px;
 }
